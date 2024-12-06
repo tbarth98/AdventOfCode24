@@ -8,7 +8,9 @@ public class Main {
         //System.out.println(Day01.partTwo());
         //System.out.println(Day02.partOne());
         //System.out.println(Day02.partTwo());
-        System.out.println(Day03.partOne());
-        System.out.println(Day03.partTwo());
+        //System.out.println(Day03.partOne());
+        //System.out.println(Day03.partTwo());
+        System.out.println("Total: "+ Day04.partOne());
+        System.out.println("Total: "+ Day04.partTwo());
     }
 }
