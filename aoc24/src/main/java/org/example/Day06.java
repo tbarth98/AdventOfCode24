@@ -28,7 +28,6 @@ public class Day06 {
             Position possibleObstruction = checkPossibleObstructionAhead(map, guard.getX(), guard.getY(), guard.getDirection());
             if(possibleObstruction != null && !guard.getVisitedPositions().contains(possibleObstruction)) {
                 uniqueObstructions.add(possibleObstruction);
-                System.out.println(possibleObstruction);
                 }
             }
         return uniqueObstructions.size();
