@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class Day03 {
     public static int partOne() throws IOException {
         int total = 0;
-        List<String> input = PuzzleInput.readInput("Day03.txt");
+        List<String> input = PuzzleInput.readInput("Day03.txt", false);
         for (String line : input) {
             /*
              * Matcher Groups
@@ -27,7 +27,7 @@ public class Day03 {
     public static int partTwo() throws IOException {
         boolean multiply = true;
         int total = 0;
-        List<String> input = PuzzleInput.readInput("Day03.txt");
+        List<String> input = PuzzleInput.readInput("Day03.txt", false);
         for (String line : input) {
             /*
              * Matcher Groups

@@ -8,7 +8,7 @@ public class Day04 {
 
     public static int partOne() throws IOException {
         int total = 0;
-        List<String> input = PuzzleInput.readInput("Day04.txt");
+        List<String> input = PuzzleInput.readInput("Day04.txt", false);
         //find X
         for(int lineNum = 0; lineNum < input.size(); lineNum++) {
             List<Integer> allXIndexOfLine = getAllIndexOfLetter('X', input.get(lineNum));
@@ -31,7 +31,7 @@ public class Day04 {
 
     public static int partTwo() throws IOException{
         int total = 0;
-        List<String> input = PuzzleInput.readInput("Day04.txt");
+        List<String> input = PuzzleInput.readInput("Day04.txt", false);
         for(int lineNum = 0; lineNum < input.size(); lineNum++) {
             List<Integer> allXIndexOfLine = getAllIndexOfLetter('A', input.get(lineNum));
             for(int index : allXIndexOfLine){

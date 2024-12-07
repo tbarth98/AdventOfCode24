@@ -15,7 +15,7 @@ public class Day02 {
 
     public static Integer partOne() throws IOException {
         int safeReports = 0;
-        List<String> reports = PuzzleInput.readInput("Day02.txt");
+        List<String> reports = PuzzleInput.readInput("Day02.txt", false);
 
         for (String report : reports) {
             List<Integer> levels = Arrays.stream(report.split(" ")).map(Integer::parseInt).collect(Collectors.toList());
@@ -26,7 +26,7 @@ public class Day02 {
 
     public static Integer partTwo() throws IOException {
         int safeReports = 0;
-        List<String> reports = PuzzleInput.readInput("Day02.txt");
+        List<String> reports = PuzzleInput.readInput("Day02.txt", false);
 
         for (String report : reports) {
             List<Integer> levels = Arrays.stream(report.split(" ")).map(Integer::parseInt).collect(Collectors.toList());

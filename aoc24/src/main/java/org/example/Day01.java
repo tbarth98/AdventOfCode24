@@ -14,7 +14,7 @@ public class Day01 {
         List<Integer> listA = new ArrayList<>();
         List<Integer> listB = new ArrayList<>();
 
-        List<String> fullList = PuzzleInput.readInput("Day01.txt");
+        List<String> fullList = PuzzleInput.readInput("Day01.txt", false);
         for(String line : fullList){
             listA.add(Integer.parseInt(line.split(regexPattern)[0]));
             listB.add(Integer.parseInt(line.split(regexPattern)[1]));
@@ -35,7 +35,7 @@ public class Day01 {
         List<Integer> listA = new ArrayList<>();
         List<Integer> listB = new ArrayList<>();
 
-        List<String> fullList = PuzzleInput.readInput("Day01.txt");
+        List<String> fullList = PuzzleInput.readInput("Day01.txt", false);
         for(String line : fullList){
             listA.add(Integer.parseInt(line.split(regexPattern)[0]));
             listB.add(Integer.parseInt(line.split(regexPattern)[1]));
