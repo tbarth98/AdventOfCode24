@@ -14,7 +14,9 @@ public class Main {
         //System.out.println(Day04.partTwo());
         //System.out.println(Day05.partOne());
         //System.out.println(Day05.partTwo());
-        System.out.println(Day06.partOne());
-        System.out.println(Day06.partTwo());
+        //System.out.println(Day06.partOne());
+        //System.out.println(Day06.partTwo());
+        System.out.println(Day07.partOne());
+        System.out.println(Day07.partTwo());
     }
 }
